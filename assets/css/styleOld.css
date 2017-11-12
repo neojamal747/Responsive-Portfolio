@@ -1,0 +1,207 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	background-image: url('../images/background.png');
+	position: relative;
+	min-height: 100%;
+	/*width: 1024px;*/
+
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h3, a, form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #4F95DD;
+}
+
+header{
+	height: 80px;
+	background-color: white;
+	position: relative;
+	border-bottom: 2px #CCCCCC solid;
+}
+
+#name{
+	position: absolute;
+	left: 10%;
+	color: white;
+	background-color: #00AFA8;
+	width: 250px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.topLinks{
+    display: inline;
+    align-items: center;
+	justify-content: center;
+}
+
+body{
+	position: relative;
+}
+
+
+.mainContent{
+	width: 600px;
+	background-color: white;
+	border: 2px #CCCCCC solid; 
+	position: absolute;
+	left: 10%;
+	top: 120px;
+}
+
+#contactForm{
+	width: 550px;
+	padding-bottom: 25px;
+}
+
+button{
+	background-color: #00AFA8;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:white;
+	font-size: 16px;
+}
+
+button:hover{
+	background-color: #4F95DD;
+}
+
+#portfolioDiv{
+	width: 690px;
+}
+
+.mainContentHeader{
+	padding: 30px 20px 20px 25px;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+
+.game{
+	float: left;
+	margin: 25px 25px 25px 25px;
+	border: 8px #666666 solid; 
+	width: 274px;
+	height: 204px;
+	z-index: -1;
+}
+
+.imageText{
+	width:274px;
+	background-color: #00AFA8;
+	height: 60px;
+	font-size: 22px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -80px;
+	z-index: 2;
+	position: relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#headshot{
+	float: left;
+	padding: 30px 20px 20px 25px;
+}
+
+#aboutText{
+	line-height: 200%;
+	padding: 10px 20px 10px 30px;
+}
+
+form{
+	line-height: 70%;
+	padding: 10px 20px 10px 30px;
+	width: 300px;
+}
+
+#connect{
+	background-color: white;
+	position: absolute;
+	right: 10%;
+	top:120px;
+	border: 2px #CCCCCC solid; 
+}
+
+#connectWithMe{
+	font-size: 22px;
+	padding: 30px 0px 20px 0px;
+	text-align: center;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+
+#formMessage{
+	color:#777777;
+}
+
+.connectImages{
+	padding-bottom: 20px;
+	padding-right: 3px;
+	border-bottom: 2px white solid;
+}
+
+.connectImages:hover{
+	border-bottom: 2px #4F95DD solid; 
+}
+
+#linkedin-image{
+	width:90px;
+}
+#github-image{
+	width: 106px;
+	padding-bottom: 15px;
+}
+#SO-image {
+	padding-bottom: 17px;
+	padding-left: 3px;
+}
+
+
+footer{
+	width: 100%;
+	position: absolute;
+	top: 1100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #666666;
+	border-top: 5px #00AFA8 solid;
+}
+
+#portFooter{
+	top: 1300%;
+}
+
+#copyright{
+	color: white;
+}
+
+/*changes below*/

@@ -1,0 +1,498 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	background-image: url('../images/background.png');
+	position: relative;
+	min-height: 100%;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h3, a, form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #4F95DD;
+}
+
+
+header{
+	height: 80px;
+	background-color: white;
+	position: relative;
+	border-bottom: 2px #CCCCCC solid;
+}
+
+#name{
+	position: absolute;
+	left: 10%;
+	color: white;
+	background-color: #00AFA8;
+	width: 250px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.topLinks{
+    display: inline;
+    align-items: center;
+	justify-content: center;
+}
+
+#contact{    
+	padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px #CCCCCC solid;
+    border-right: 2px #CCCCCC solid;
+}
+
+#about{
+	padding-right: 20px;
+}
+
+#portfolio{
+	padding-left: 20px;
+}
+
+body{
+	position: relative;
+}
+
+.mainContentHeader{
+	margin: 0px 27px 0px 27px;
+    padding: 30px 20px 20px 0px;
+    color: #00AFA8;
+    border-bottom: 2px #DDDDDD solid;
+}
+
+.mainContent{
+	width: 600px;
+	background-color: white;
+	border: 2px #CCCCCC solid; 
+	position: absolute;
+	left: 10%;
+	top: 120px;
+}
+
+.connect{
+	background-color: white;
+	position: absolute;
+	right: 10%;
+	top:120px;
+	border: 2px #CCCCCC solid; 
+}
+
+#connectWithMe{
+	margin: 0px 27px 0px 27px;
+    padding: 30px 0px 20px 7px;
+	font-size: 22px;
+	color: #00AFA8;
+	border-bottom: 2px #DDDDDD solid;
+}
+
+#contactForm{
+	padding-bottom: 25px;
+}
+
+button{
+	background-color: #00AFA8;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:white;
+	font-size: 16px;
+	border: 1px #CCCCCC solid;
+}
+
+button:hover{
+	background-color: #4F95DD;
+}
+
+form{
+	line-height: 70%;
+	padding: 10px 20px 10px 30px;
+}
+
+#formName, #formEmail, #formMessage {
+	width: 90%;
+	color: #DFDFDF;
+	border: 2px #DFDFDF solid;
+}
+
+.game{
+	float: left;
+	margin: 15px 5px 15px 15px;
+	border: 1px #666666 solid; 
+	width: 274px;
+	height: 204px;
+}
+
+#hangman, #rpg, #trivia, #rutgers, #rps{
+	width: 274px;
+	height: 204px;
+}
+
+.imageText{
+	width:274px;
+	background-color: #00AFA8;
+	height: 60px;
+	font-size: 22px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -80px;
+	position: relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#headshot{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px 20px 10px 25px;
+	border: 1px #CCCCCC solid;
+}
+
+#aboutText{
+	line-height: 180%;
+    padding: 0px 20px 10px 30px;
+}
+
+.connectImages{
+	width:70px;
+	margin: 10px 0px 10px 10px;
+	border-bottom: 2px white solid;
+}
+
+.connectImages:hover{
+	border-bottom: 2px #4F95DD solid; 
+}
+
+#SO-image{
+	width:70px;
+	margin-right: 10px;
+}
+
+
+footer{
+	width: 100%;
+	position: absolute;
+	top: 1100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #666666;
+	border-top: 5px #00AFA8 solid;
+}
+
+#portfolioFooter{
+	top: 1300%;
+}
+
+#copyright{
+	color: white;
+}
+
+@media screen and (max-width: 1100px) {
+	.mainContent{
+		width: 420px;
+		padding-bottom: 10px;
+	}
+
+	.mainContentHeader{
+		margin: auto;
+    	max-width: 360px;
+	}
+	
+	.game{
+		float: none;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.game, #hangman, #rpg, #trivia, #rutgers, #rps{
+		width: 360px;
+		height: 268px;
+	}
+
+	.imageText{
+		width:360px;
+	}
+
+	#headshot{
+		width: auto;
+		height: auto;
+		float: none;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#aboutText{
+		line-height: 180%;
+    	padding-top: 20px;
+	}
+
+	.connect{
+		width: 250px; 
+	}
+
+	#connectWithMe{
+		margin: auto;
+	    padding: 30px 0px 20px 0px;
+		border-bottom: none;
+		text-align: center;
+	}
+
+	.connectImages{
+		width:50px;
+		margin: 10px 10px 10px 10px;
+		border-bottom: 2px white solid;
+	}
+
+	#SO-image{
+		width:50px;
+	}
+
+	#github-image{
+		margin-left: 24px;
+	}
+
+	#indexFooter{
+		top: 1250%;
+	}
+
+	#portfolioFooter{
+		top: 2150%;
+	}
+
+@media screen and  (max-width: 865px) {
+
+
+	.mainContent{
+		width: 600px;
+	}
+
+	.mainContentHeader{
+		margin: 0px 27px 0px 27px;
+	    padding: 30px 20px 20px 0px;
+	    max-width: 600px;
+	}
+
+	#headshot{
+		width: 200px;
+		height: 200px;
+		float: left;
+		margin: 5px 20px 10px 25px;
+	}
+
+	#aboutText{
+		line-height: 180%;
+	    padding: 0px 20px 10px 30px;
+	}
+
+	.connect{
+		position: absolute;
+	    width: 600px;
+	    top: 650px;
+	    left: 10%;
+	}
+
+	#connectWithMe{
+		margin: 0px 27px 0px 27px;
+	    padding: 15px 0px 20px 7px;
+		text-align: left;
+	}
+
+	.connectImages{
+		width:60px;
+		margin: 0px 0px 15px 5px;
+	}
+
+	#SO-image{
+		width: 60px;
+	}
+
+	#indexConnect{
+		top: 585px;
+	}
+
+	#portfolioConnect{
+		top: 960px;
+	}
+
+	.game{
+		float: left;
+		margin: 15px 5px 15px 15px;
+		width: 274px;
+		height: 204px;
+		}
+
+	#hangman, #rpg, #trivia, #rutgers, #rps{
+		width: 274px;
+		height: 204px;
+	}
+
+	.imageText{
+		width:274px;
+	}
+
+	#portfolioFooter{
+	top: 1400%;
+	}
+
+}
+
+@media screen and  (max-width: 640px) {
+
+	header{
+		height: 140px;
+	}
+
+	#name{
+		width: 100%;
+		height: 80px;
+		position: static;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Roboto Slab', serif;
+	}
+
+	ul{
+		list-style-type: none;
+	    position: static;
+	    padding-top: 23px;
+	    padding-left: 25%;
+	}
+
+	.topLinks{
+	    display: inline;
+	    align-items: center;
+		justify-content: center;
+	}
+
+	#contact{    
+		margin-top: 20px;
+		padding-left: 20px;
+	    padding-right: 20px;
+	    border: none;
+	}
+
+	#about{
+		padding-right: 20px;
+	}
+
+	#portfolio{
+		padding-left: 20px;
+	}
+
+	.mainContent{
+		top: 180px;
+		width: 420px;
+		padding-bottom: 10px;
+	}
+
+	.mainContentHeader{
+		margin: auto;
+    	max-width: 360px;
+	}
+	
+	.game{
+		float: none;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.game, #hangman, #rpg, #trivia, #rutgers, #rps{
+		width: 360px;
+		height: 268px;
+	}
+
+	.imageText{
+		width:360px;
+	}
+
+	#headshot{
+		width: auto;
+		height: auto;
+		float: none;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#aboutText{
+		line-height: 180%;
+    	padding-top: 20px;
+	}
+
+	.connect{
+		position: absolute;
+	    width: 420px;
+	    top: 705px;
+	    left: 10%;
+	}
+
+	#connectWithMe{
+		margin: 0px 27px 0px 27px;
+	    padding: 15px 0px 20px 7px;
+		text-align: left;
+	}
+
+	.connectImages{
+		width:60px;
+		margin: 0px 0px 15px 5px;
+	}
+
+	#SO-image{
+		width: 60px;
+	}
+
+	#indexConnect{
+		top: 1020px;
+	}
+
+	#portfolioConnect{
+		top: 1770px;
+	}
+
+	#indexFooter{
+		top: 900%;
+	}
+
+	#contactFooter{
+		top: 621%;
+	}
+
+	#portfolioFooter{
+		top: 1380%;
+	}
+
+}
+
